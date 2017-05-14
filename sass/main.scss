@@ -1,0 +1,107 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	// font-family: 'Montserrat', sans-serif;
+	// font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	.head_section {
+		background-image: url(../img/bg_header.jpg);
+		background-size: cover;
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+		padding: 0 0 25px;
+		.container {
+			text-align: center;
+			header {
+				line-height: 90px;
+				.row {
+					.col-md-4 {
+						text-align: left;
+					}
+					ul.col-md-8 {
+						text-align: right;
+						li {
+							display: inline-block;
+							margin: 0 0 0 50px;
+							a {
+								color: #fff;
+								font-size: 14px;
+								text-transform: uppercase;
+								text-decoration: none;
+							}
+						}
+						li:first-child {
+							margin: 0;
+						}
+						li:hover {
+							a {
+								color: #fce38a;
+								padding: 0 0 10px;
+								border-bottom: 2px solid #fce38a;
+							}
+						}
+					}
+				}
+			}
+		h1 {
+			font-size: 150px;
+			text-transform: uppercase;
+			margin: 0 0 110px;
+			span {
+				font-size: 72px;
+				font-family: 'Kaushan Script', cursive;
+				text-transform: none;
+			}
+		}
+		.learn {
+			display: inline-block;
+			padding: 0 25px;
+			line-height: 35px;
+			border: 2px solid #fff;
+			color: #fff;
+			text-decoration: none;
+			margin: 0 0 155px;
+		}
+		.slide_head {
+			li {
+				text-align: left;
+				display: inline-block;
+				width: 280px;
+
+				div {
+				 background-color: #fff;
+				 height: 4px;
+				 margin: 0 0 30px;
+				}
+				p {
+					font-size: 18px;
+					text-transform: uppercase;
+					span {
+						font-size: 24px;
+						font-weight: 700;
+					}
+				}
+			}
+		}
+
+		}
+	}
+	.story {
+		padding: 90px 0 110px;
+		text-align: center;
+		.container {
+			h2 {
+				font-family: 'Montserrat', sans-serif;
+				font-weight: 700;
+				font-size: 30px;
+				color: #333333;
+				text-transform: uppercase;
+				span {
+					padding: 0 0 20px;
+					font-family: 'Kaushan Script', cursive;
+					font-size: 24px;
+					text-transform: none;
+				}
+			}
+		}
+	}
+}

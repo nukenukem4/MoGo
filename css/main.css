@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+  body .head_section {
+    background-image: url(../img/bg_header.jpg);
+    background-size: cover;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 25px; }
+    body .head_section .container {
+      text-align: center; }
+      body .head_section .container header {
+        line-height: 90px; }
+        body .head_section .container header .row .col-md-4 {
+          text-align: left; }
+        body .head_section .container header .row ul.col-md-8 {
+          text-align: right; }
+          body .head_section .container header .row ul.col-md-8 li {
+            display: inline-block;
+            margin: 0 0 0 50px; }
+            body .head_section .container header .row ul.col-md-8 li a {
+              color: #fff;
+              font-size: 14px;
+              text-transform: uppercase;
+              text-decoration: none; }
+          body .head_section .container header .row ul.col-md-8 li:first-child {
+            margin: 0; }
+          body .head_section .container header .row ul.col-md-8 li:hover a {
+            color: #fce38a;
+            padding: 0 0 10px;
+            border-bottom: 2px solid #fce38a; }
+      body .head_section .container h1 {
+        font-size: 150px;
+        text-transform: uppercase;
+        margin: 0 0 110px; }
+        body .head_section .container h1 span {
+          font-size: 72px;
+          font-family: 'Kaushan Script', cursive;
+          text-transform: none; }
+      body .head_section .container .learn {
+        display: inline-block;
+        padding: 0 25px;
+        line-height: 35px;
+        border: 2px solid #fff;
+        color: #fff;
+        text-decoration: none;
+        margin: 0 0 155px; }
+      body .head_section .container .slide_head li {
+        text-align: left;
+        display: inline-block;
+        width: 280px; }
+        body .head_section .container .slide_head li div {
+          background-color: #fff;
+          height: 4px;
+          margin: 0 0 30px; }
+        body .head_section .container .slide_head li p {
+          font-size: 18px;
+          text-transform: uppercase; }
+          body .head_section .container .slide_head li p span {
+            font-size: 24px;
+            font-weight: 700; }
+  body .story {
+    padding: 90px 0 110px;
+    text-align: center; }
+    body .story .container h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase; }
+      body .story .container h2 span {
+        padding: 0 0 20px;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+        text-transform: none; }
