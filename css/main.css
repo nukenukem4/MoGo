@@ -251,13 +251,12 @@ body {
         color: #999999;
         margin: 0 0 85px; }
       body .service_2 .container .row .col-md-6 {
-        margin: 0;
-        padding: 0; }
+        margin: 0 0 30px; }
         body .service_2 .container .row .col-md-6 img {
           max-width: 100%; }
         body .service_2 .container .row .col-md-6 .accordion {
           margin: 0 auto;
-          max-width: 600px; }
+          max-width: 90%; }
           body .service_2 .container .row .col-md-6 .accordion .part {
             margin: 0 0 10px; }
             body .service_2 .container .row .col-md-6 .accordion .part .head > * {
@@ -312,7 +311,23 @@ body {
     background-color: #f8f8f8; }
     body .quote .container .comments {
       position: relative; }
+      @media (max-width: 828px) {
+        body .quote .container .comments .fa-chevron-left, body .quote .container .comments .fa-chevron-right {
+          display: none; } }
+      body .quote .container .comments .fa-chevron-left {
+        color: #999999;
+        position: absolute;
+        top: 50%;
+        font-size: 35px;
+        left: -30px; }
+      body .quote .container .comments .fa-chevron-right {
+        color: #999999;
+        position: absolute;
+        top: 50%;
+        font-size: 35px;
+        right: -30px; }
       body .quote .container .comments .slide {
+        display: block;
         list-style: none;
         -webkit-transition: 1s;
         transition: 1s; }
@@ -403,7 +418,7 @@ body {
           color: red;
           text-align: center;
           width: 100%;
-          height: 100%; }
+          height: 470px; }
           body .our_team .teem_photo li .overlay i {
             -webkit-transition: 1s;
             transition: 1s;
@@ -496,6 +511,21 @@ body {
     padding: 70px 0; }
     body .testimonial .container .comments {
       position: relative; }
+      @media (max-width: 828px) {
+        body .testimonial .container .comments .fa-chevron-left, body .testimonial .container .comments .fa-chevron-right {
+          display: none; } }
+      body .testimonial .container .comments .fa-chevron-left {
+        color: #999999;
+        position: absolute;
+        top: 50%;
+        font-size: 35px;
+        left: -30px; }
+      body .testimonial .container .comments .fa-chevron-right {
+        color: #999999;
+        position: absolute;
+        top: 50%;
+        font-size: 35px;
+        right: -30px; }
       body .testimonial .container .comments .slide {
         list-style: none;
         -webkit-transition: 1s;
